@@ -1,0 +1,3 @@
+xcrun -sdk macosx metal -c shader.metal -o shader.air && xcrun -sdk macosx metallib shader.air -o shader.metallib
+
+# Convert the .air file to .metallib
